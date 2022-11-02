@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"-->
     <link rel="stylesheet" href="style.css">
     <title>NeoProduct</title>
 </head>
@@ -43,12 +43,12 @@
     </nav>
 
     <!--Carousel-->
-    <div id="MyCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#MyCarousel" data-slide-to="1"></li>
-        <li data-target="#MyCarousel" data-slide-to="2"></li>
-      </ol>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <section class="bg-danger text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
@@ -61,28 +61,58 @@
                         We are passionate individuals that came together to bring innovation and change to those in need!
                         We specialize in consulting and developement 
                     </p>
-                    <a class="btn btn-info btn-warning" href=".." role="button">Learn More</a>
+                    <a class="btn btn-info btn-warning" href="" role="button">Learn More</a>
                 </div>
-                <img class="img-fluid float-right d-none d-sm-block" src="/NeoWeb/images/pngwing.com.png" alt=""/>
+                <img class="img-fluid float-right d-none d-sm-block" src="/images/pngwing.com.png" alt=""/>
               </div>  
             </div>
-          </section>
+        </section>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="/NeoWeb/images/pngwing.com (1).png" alt="Second slide">
+          <section class="bg-danger text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+            <div class="container">
+              <div class="d-sm-flex aligh-items-center justify-content-between">
+                <div>
+                    <h1>Neo<span class="text-danger">PRODUCT</span></h1> 
+                    <h2>Take your  <span class="text-warning">PRODUCT</span> to new hights</h2>    
+                    <p class="lead my-4 text-warning">
+                        We are passionate individuals that came together to bring innovation and change to those in need!
+                        We specialize in consulting and developement 
+                    </p>
+                    <a class="btn btn-info btn-warning" href="http://localhost/shop/upload/index.php?route=product/category&language=en-gb&path=59" role="button">Learn More</a>
+                </div>
+                <img class="img-fluid float-right d-none d-sm-block" src="/images/pngwing.com.png" alt=""/>
+              </div>  
+            </div>
+        </section>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="/NeoWeb/images/pngwing.com.png" alt="Third slide">
+          <section class="bg-danger text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+            <div class="container">
+              <div class="d-sm-flex aligh-items-center justify-content-between">
+                <div>
+                    <h1>Neo<span class="text-danger">PRODUCT</span></h1> 
+                    <h2>Take your  <span class="text-warning">PRODUCT</span> to new hights</h2>    
+                    <p class="lead my-4 text-warning">
+                        We are passionate individuals that came together to bring innovation and change to those in need!
+                        We specialize in consulting and developement 
+                    </p>
+                    <a class="btn btn-info btn-warning" href="http://localhost/shop/upload/index.php?route=product/category&language=en-gb&path=59" role="button">Learn More</a>
+                </div>
+                <img class="img-fluid float-right d-none d-sm-block" src="/images/pngwing.com.png" alt=""/>
+              </div>  
+            </div>
+        </section>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#MyCarousel" role="button" data-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Pr</span>
-      </a>
-      <a class="carousel-control-next" href="#MyCarousel" role="button" data-slide="next">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
     <!--Showcase
