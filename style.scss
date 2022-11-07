@@ -11,5 +11,12 @@ $theme-colors: (
     "white":  white,
 );
 
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
 
 @import "node_modules/bootstrap/scss/bootstrap";
