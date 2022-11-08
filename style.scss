@@ -12,9 +12,13 @@ $theme-colors: (
 );
 
 .bg-image{
-    background-size: cover;
+    background-size: fluid;
     background-position: center;
     background-repeat: no-repeat;
   }
+
+
+
+
 
 @import "node_modules/bootstrap/scss/bootstrap";
